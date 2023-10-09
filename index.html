@@ -120,12 +120,12 @@
 
       </div>
 
-      <div class="skills">
-        <div class="skillsHeader">
+      <div class="skills" style="margin-top: 100px;">
+        <div class="skillsHeader" style="margin-bottom: 100px;">
         <h1 style="margin-bottom: 2px; color: #f4d10a;font-style: italic;">Skills</h1>  
         <i>What I bring to the table</i>
         </div>
-        <div class="cardholder">
+        <div class="cardholder" style="margin-top: 25px;">
         <div class="card">
           <div class="cardTitle">
             <h1>Python</h1>
@@ -167,7 +167,83 @@
         </p>
       </div>
   </div>
+
+  <div class="card">
+    <div class="cardTitle">
+      <h1>Python</h1>
+    </div>
+    <div class="cardBody">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        voluptatum, quibusdam, voluptate, quia quod quos voluptas
+        voluptatibus quas quibusdam, voluptate, quia quod quos voluptas
+        voluptatibus quas
+      </p>
+    </div>
+</div>
+
+<div class="card">
+  <div class="cardTitle">
+    <h1>Python</h1>
   </div>
+  <div class="cardBody">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatum, quibusdam, voluptate, quia quod quos voluptas
+      voluptatibus quas quibusdam, voluptate, quia quod quos voluptas
+      voluptatibus quas
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="cardTitle">
+    <h1>Python</h1>
+  </div>
+  <div class="cardBody">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatum, quibusdam, voluptate, quia quod quos voluptas
+      voluptatibus quas quibusdam, voluptate, quia quod quos voluptas
+      voluptatibus quas
+    </p>
+  </div>
+</div>
+  <div class = "exp">
+    <div class="skillsHeader">
+      <h1 style="margin-bottom: 2px; color: #f4d10a;font-style: italic;">Experience</h1>  
+      <i>what i’ve done</i>
+      </div>
+  </div>
+  <div class="cardBig">
+    <div class="cardTitle">
+      <h1>Python</h1>
+    </div>
+    <div class="cardBody">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        voluptatum, quibusdam, voluptate, quia quod quos voluptas
+        voluptatibus quas quibusdam, voluptate, quia quod quos voluptas
+        voluptatibus quas
+      </p>
+    </div>
+  </div>
+  <div class="cardBig">
+    <div class="cardTitle">
+      <h1>Python</h1>
+    </div>
+    <div class="cardBody">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        voluptatum, quibusdam, voluptate, quia quod quos voluptas
+        voluptatibus quas quibusdam, voluptate, quia quod quos voluptas
+        voluptatibus quas
+      </p>
+    </div>
+  </div>
+  </div>
+        <div class="footer"></div>
+
     </div>
   </body>
 </html>
@@ -242,11 +318,24 @@
 
 
   }
+  .cardBig{
+    width: 625px;
+    height: 450px;
+    border-radius: 5px;
+    border: 2px solid var(--Dark, #434343);
+    background: rgba(217, 217, 217, 0.00);
+
+
+  }
   .cardholder{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
+    flex-wrap: wrap;
 
+  }
+  .cardTitle{
+    padding-left: 50px;
   }
   .cardBody p{
     font-size: 16px;
@@ -254,5 +343,10 @@
     color: #434343;
     padding: 50px;
   }
-  
+  .footer {
+    height: 150px;
+    width: 100vw;
+    background: var(--Dark, #434343);
+    margin-top: 75px;
+  }
 </style>
